@@ -114,6 +114,17 @@
   -webkit-text-fill-color: transparent;
 }
 
+.logo-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  background: linear-gradient(to right, #915EFF, #00cea8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  transform: skew(-5deg);
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
